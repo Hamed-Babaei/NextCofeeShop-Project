@@ -3,18 +3,72 @@
     {
       "id": 1,
       "title": "Black Coffee",
-      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
       "price": 8,
       "img": "/images/menu-1.jpg",
-      "off": 0
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 5,
+      "off": 5,
+      "type": "hot"
+    },
+    {
+      "id": 2,
+      "title": "Chocolete Shake",
+      "price": 7,
+      "img": "/images/chcolate-shake.webp",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "off": 0,
+      "score": 5,
+      "type": "cold"
     },
     {
       "id": 2,
       "title": "Chocolete Coffee",
-      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
       "price": 7,
       "img": "/images/menu-2.jpg",
-      "off": 0
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "off": 0,
+      "score": 5,
+      "type": "hot"
+    },
+    {
+      "id": 3,
+      "title": "Coffee With Milk",
+      "price": 7,
+      "img": "/images/menu-3.jpg",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "off": 0,
+      "score": 4,
+      "type": "hot"
+    },
+    {
+      "id": 4,
+      "title": "Chocolete Coffee",
+      "price": 7,
+      "img": "/images/menu-2.jpg",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "off": 0,
+      "score": 5,
+      "type": "cold"
+    },
+    {
+      "id": 5,
+      "title": "Chocolete Coffee",
+      "price": 7,
+      "img": "/images/menu-2.jpg",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "off": 0,
+      "score": 5,
+      "type": "cold"
+    },
+    {
+      "id": 6,
+      "title": "Chocolete Coffee",
+      "price": 7,
+      "img": "/images/menu-2.jpg",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "off": 0,
+      "score": 5,
+      "type": "cold"
     }
   ],
   "services": [
@@ -83,6 +137,48 @@
       "body": "Perfect Coffee :))",
       "productID": 2,
       "score": 4.5
+    }
+  ],
+  "reserves": [
+    {
+      "id": 1,
+      "name": "mmad",
+      "email": "mmad@gmail.com",
+      "date": "",
+      "time": "",
+      "person": ""
+    },
+    {
+      "name": "hamed",
+      "email": "hamed@gmail.com",
+      "date": "2024-01-01",
+      "time": "23:59",
+      "person": "4",
+      "id": 2
+    },
+    {
+      "name": "test reserve",
+      "email": "test-reserve@gmail.com",
+      "date": "2024-01-02",
+      "time": "04:16",
+      "person": "2",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "date": "",
+      "time": "",
+      "person": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "date": null,
+      "time": null,
+      "person": "3",
+      "id": 5
     }
   ]
 }

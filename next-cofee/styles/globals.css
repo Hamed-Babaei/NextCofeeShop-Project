@@ -7408,3 +7408,7 @@ h6,
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.text-white {
+  color: white !important;
+}

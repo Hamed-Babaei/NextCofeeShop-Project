@@ -19,6 +19,7 @@ function Services({ services }) {
           <div className="row">
             {services.map((service) => (
               <ServiceItem
+                key={service.id}
                 title={service.title}
                 icon={service.icon}
                 img={service.img}
