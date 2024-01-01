@@ -1,6 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Offer() {
+  const [email, setEmail] = useState("");
+
+  const addEmail = async (e) => {
+    e.preventDefault();
+
+    const response = await fetch(`http://localhost:4000/newsLetters`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email,
+      }),
+    });
+
+    if (response.status === 201) {
+      setEmail("");
+      alert("Join Successfully");
+    }
+  };
   return (
     <>
       <div className="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
@@ -15,15 +35,18 @@ function Offer() {
               <input
                 type="text"
                 className="form-control p-4"
-                placeholder="Your Email"
                 style={{ height: "60px" }}
+                placeholder="Your Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
               <div className="input-group-append">
                 <button
                   className="btn btn-primary font-weight-bold px-4"
                   type="submit"
+                  onClick={addEmail}
                 >
-                  Sign Up
+                  JOIN
                 </button>
               </div>
             </div>
