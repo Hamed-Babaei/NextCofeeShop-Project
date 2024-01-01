@@ -7412,3 +7412,15 @@ h6,
 .text-white {
   color: white !important;
 }
+
+.testimonial-item__img {
+  width: 50px;
+  border-radius: 50%;
+}
+.testimonial-item__score {
+  color: #33211d;
+  background: #da9f5b;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+}

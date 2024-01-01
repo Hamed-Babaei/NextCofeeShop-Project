@@ -123,20 +123,46 @@
       "id": 5
     }
   ],
-  "comment": [
+  "comments": [
     {
       "id": 1,
-      "username": "Q_Yolme",
+      "img": "/images/testimonial-4.jpg",
+      "username": "Presley Mueller",
+      "body": "doloribus at sed quis culpa deserunt consectetur qui praesentium\naccusamus fugiat dicta\nvoluptatem rerum ut voluptate autem\nvoluptatem repellendus aspernatur dolorem in",
+      "productID": 1,
+      "score": 4
+    },
+    {
+      "id": 1,
+      "img": "/images/testimonial-1.jpg",
+      "username": "Nikita Garfield",
       "body": "Perfect Coffee :))",
+      "productID": 1,
+      "score": 1
+    },
+    {
+      "id": 2,
+      "img": "/images/testimonial-2.jpg",
+      "username": "Jayne_Kuhic Sydney",
+      "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium",
+      "productID": 2,
+      "score": 2
+    },
+    {
+      "id": 1,
+      "img": "/images/testimonial-3.jpg",
+      "username": "Hayden Althea",
+      "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et",
       "productID": 1,
       "score": 5
     },
     {
-      "id": 2,
-      "username": "Amin_Saeedi",
-      "body": "Perfect Coffee :))",
-      "productID": 2,
-      "score": 4.5
+      "id": 1,
+      "img": "/images/UnknownUser.jpg",
+      "username": "Dallas Ole",
+      "body": "maiores sed dolores similique labore et inventore et\nquasi temporibus esse sunt id et\neos voluptatem aliquam\naliquid ratione corporis molestiae mollitia quia et magnam dolor",
+      "productID": 1,
+      "score": 3
     }
   ],
   "reserves": [

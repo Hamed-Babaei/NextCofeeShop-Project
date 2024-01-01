@@ -1,7 +1,6 @@
 import React from "react";
 
 function Menu({ data }) {
-  console.log(data);
   return (
     <>
       <div className="container-fluid pt-5">
