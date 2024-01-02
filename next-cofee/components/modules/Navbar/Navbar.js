@@ -35,10 +35,10 @@ function Navbar() {
             <Link href="/about" className={`${styles.nav_link}`}>
               About
             </Link>
-            <Link href="/Services" className={`${styles.nav_link}`}>
+            <Link href="/services" className={`${styles.nav_link}`}>
               Service
             </Link>
-            <Link href="/Menu" className={`${styles.nav_link}`}>
+            <Link href="/menu" className={`${styles.nav_link}`}>
               Menu
             </Link>
             <div className={styles.dropdown}>
