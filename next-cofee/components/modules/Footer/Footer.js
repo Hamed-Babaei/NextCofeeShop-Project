@@ -117,7 +117,10 @@ function Footer() {
         >
           <p className="mb-2 text-white">
             Copyright "&copy;"
-            <a className="font-weight-bold" href="#">
+            <a
+              className="font-weight-bold"
+              href="https://github.com/Hamed-Babaei"
+            >
               Hamed Babaei
             </a>
             . All Rights Reserved.

@@ -23,7 +23,7 @@ function Slider() {
         // }}
       >
         <SwiperSlide
-          style={{ backgroundImage: 'url("/images/3.jpg")' }}
+          style={{ backgroundImage: 'url("/images/ban/5.jpg")' }}
           className={styles.swiper_slide}
         >
           <div
@@ -37,7 +37,7 @@ function Slider() {
           </div>
         </SwiperSlide>
         <SwiperSlide
-          style={{ backgroundImage: 'url("/images/2.jpg")' }}
+          style={{ backgroundImage: 'url("/images/ban/23.jpg")' }}
           className={styles.swiper_slide}
         >
           <div
