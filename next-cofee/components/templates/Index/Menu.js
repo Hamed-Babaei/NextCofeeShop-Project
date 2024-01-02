@@ -45,7 +45,7 @@ function Menu({ data }) {
                 .filter((item) => item.type === "cold")
                 .slice(0, 3)
                 .map((item) => (
-                  <div key={item.key} className="row align-items-center mb-5">
+                  <div key={item.id} className="row align-items-center mb-5">
                     <div className="col-4 col-sm-3">
                       <img
                         className="w-100 rounded-circle mb-3 mb-sm-0"

@@ -13,17 +13,17 @@ function Slider() {
     <>
       <Swiper
         navigation={true}
-        modules={[Navigation, Autoplay]}
+        // modules={[Navigation, Autoplay]}
         className={styles.swiper}
         loop={true}
         delay={1}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // }}
       >
         <SwiperSlide
-          style={{ backgroundImage: 'url("/images/carousel-1.jpg")' }}
+          style={{ backgroundImage: 'url("/images/3.jpg")' }}
           className={styles.swiper_slide}
         >
           <div
@@ -37,7 +37,7 @@ function Slider() {
           </div>
         </SwiperSlide>
         <SwiperSlide
-          style={{ backgroundImage: 'url("/images/carousel-2.jpg")' }}
+          style={{ backgroundImage: 'url("/images/2.jpg")' }}
           className={styles.swiper_slide}
         >
           <div

@@ -1,7 +1,6 @@
 import React from "react";
 import Testimonial from "@/components/modules/Testimonial/Testimonial";
 function Testimonials({ data }) {
-  console.log(data);
   return (
     <>
       <div className="container-fluid py-5">
