@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
 
 function Navbar() {
+  // const [search, setSearch] = useState("");
   return (
     <div className={`container-fluid p-0 ${styles.nav_bar}`}>
       <nav
