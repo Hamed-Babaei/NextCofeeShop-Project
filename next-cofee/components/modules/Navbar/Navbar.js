@@ -1,9 +1,30 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
 
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
+import * as icons from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useRouter } from "next/router";
+
 function Navbar() {
-  // const [search, setSearch] = useState("");
+  const route = useRouter();
+  const [search, setSearch] = useState("");
+
+  useEffect(() => {
+    setSearch(route.query.q);
+  }, []);
+
+  const searchHandler = (e) => {
+    console.log("ok");
+
+    if (search.trim()) {
+      route.push(`/search?q=${search}`);
+    }
+  };
+
   return (
     <div className={`container-fluid p-0 ${styles.nav_bar}`}>
       <nav
@@ -11,7 +32,7 @@ function Navbar() {
       >
         <Link href="/" className={`${styles.navbar_brand} px-lg-4 m-0`}>
           <h1 className="m-0 display-4 text-uppercase text-white">
-            Next-Coffee
+            Ne xt-Coffee
           </h1>
         </Link>
         <button
@@ -27,6 +48,20 @@ function Navbar() {
           id="navbarCollapse"
         >
           <div className={`${styles.navbar_nav} ml-auto p-4`}>
+            <div className="input-groupe" style={{ position: "relative" }}>
+              <input
+                type="text"
+                placeholder="search..."
+                className={styles.search_input}
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+              />
+              <FontAwesomeIcon
+                className={styles.search_input__icon}
+                icon={icons["faSearch"]}
+                onClick={searchHandler}
+              />
+            </div>
             <Link
               href="/"
               className={`${styles.nav_link} ${styles.active_nev_link}`}

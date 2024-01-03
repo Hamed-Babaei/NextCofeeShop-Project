@@ -347,8 +347,12 @@
   color: white;
   padding-bottom: 11px;
   padding-right: 35px;
-  position: relative;
+  position: relative !important;
   bottom: 3px;
+}
+.search_input__icon {
+  position: absolute;
+  right: 5px;
 }
 .search_input::placeholder {
   color: white;
