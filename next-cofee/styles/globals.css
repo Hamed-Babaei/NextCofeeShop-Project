@@ -7438,3 +7438,6 @@ h6,
   color: #7b151c;
   margin-bottom: 0;
 }
+.form-control::placeholder {
+  color: white !important;
+}

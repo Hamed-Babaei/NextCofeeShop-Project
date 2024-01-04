@@ -345,7 +345,7 @@
   border-bottom: 2px solid rgb(255, 255, 255);
   outline: 0;
   color: white;
-  padding-bottom: 11px;
+  padding-bottom: 5px;
   padding-right: 35px;
   position: relative !important;
   bottom: 3px;
@@ -353,6 +353,7 @@
 .search_input__icon {
   position: absolute;
   right: 5px;
+  top: 2px;
   color: white;
 }
 .search_input::placeholder {
