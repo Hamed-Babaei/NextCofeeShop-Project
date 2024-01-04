@@ -6,6 +6,7 @@ const Product = ({ product, comments }) => {
   return (
     <>
       <ProductsDetails data={product} />
+      <Comments data={comments} />
     </>
   );
 };
