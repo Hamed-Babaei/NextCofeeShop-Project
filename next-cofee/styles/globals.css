@@ -7424,3 +7424,17 @@ h6,
   border-radius: 0.3rem;
   font-weight: 500;
 }
+.testimonial-item__title {
+  text-align: start;
+}
+.alert {
+  background-color: #f8d7da !important;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+  padding: 1.5rem 2rem;
+
+}
+.alert h5 {
+  color: #7b151c;
+  margin-bottom: 0;
+}

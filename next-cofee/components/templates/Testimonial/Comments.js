@@ -5,9 +5,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 const Comments = ({ data }) => {
+  console.log(data);
   return (
     <div className="container-fluid pt-5">
       <div className="container">
@@ -28,13 +29,16 @@ const Comments = ({ data }) => {
             pagination={{
               clickable: true,
             }}
+            autoplay={{
+              delay: 2000,
+            }}
             breakpoints={{
               1024: {
                 slidesPerView: 2,
                 spaceBetween: 100,
               },
             }}
-            modules={[Pagination]}
+            modules={[Pagination, Autoplay]}
             className={styles.swiper}
           >
             {data.length ? (
@@ -43,23 +47,30 @@ const Comments = ({ data }) => {
                   <div className="testimonial-item">
                     <div className="d-flex align-items-center mb-3">
                       <img
-                        className="img-fluid"
-                        width={100}
+                        className="testimonial-item__img"
                         src={comment.img}
                         alt=""
                       />
-                      <div className="ml-3">
+                      <div className="ml-3 testimonial-item__title">
                         <h4>{comment.username}</h4>
-                        <p className="text-left mb-0">User</p>
+                        <span className="testimonial-item__score">
+                          {(Math.floor(comment.score) >= 4 && "Good") ||
+                            ((Math.floor(comment.score) <= 3) &
+                              (Math.floor(comment.score) >= 2) &&
+                              "Average") ||
+                            (Math.floor(comment.score) <= 1 && "Bad")}
+                        </span>
                       </div>
                     </div>
-                    <p className="m-0 mb-4">{comment.body}</p>
+                    <p className="m-0">{comment.body}</p>
                   </div>
                 </SwiperSlide>
               ))
             ) : (
               <>
-                <h5>There Isn't Comment For THis Item</h5>
+                <div className="alert">
+                  <h5>There isn't Comment For This Item</h5>
+                </div>
               </>
             )}
           </Swiper>

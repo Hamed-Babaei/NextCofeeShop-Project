@@ -353,6 +353,7 @@
 .search_input__icon {
   position: absolute;
   right: 5px;
+  color: white;
 }
 .search_input::placeholder {
   color: white;

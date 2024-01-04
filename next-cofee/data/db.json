@@ -134,7 +134,7 @@
       "score": 4
     },
     {
-      "id": 1,
+      "id": 2,
       "img": "/images/testimonial-1.jpg",
       "username": "Nikita Garfield",
       "body": "Perfect Coffee :))",
@@ -142,7 +142,7 @@
       "score": 1
     },
     {
-      "id": 2,
+      "id": 3,
       "img": "/images/testimonial-2.jpg",
       "username": "Jayne_Kuhic Sydney",
       "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium",
@@ -150,7 +150,15 @@
       "score": 2
     },
     {
-      "id": 1,
+      "id": 4,
+      "img": "/images/UnknownUser.jpg",
+      "username": "Dallas Ole",
+      "body": "maiores sed dolores similique labore et inventore et\nquasi temporibus esse sunt id et\neos voluptatem aliquam\naliquid ratione corporis molestiae mollitia quia et magnam dolor",
+      "productID": 3,
+      "score": 3
+    },
+    {
+      "id": 5,
       "img": "/images/testimonial-3.jpg",
       "username": "Hayden Althea",
       "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et",
@@ -158,11 +166,43 @@
       "score": 5
     },
     {
-      "id": 1,
-      "img": "/images/UnknownUser.jpg",
-      "username": "Dallas Ole",
-      "body": "maiores sed dolores similique labore et inventore et\nquasi temporibus esse sunt id et\neos voluptatem aliquam\naliquid ratione corporis molestiae mollitia quia et magnam dolor",
-      "productID": 4,
+      "id": 6,
+      "img": "/images/testimonial-2.jpg",
+      "username": "aynard.Hodkiewicz",
+      "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit ",
+      "productID": 2,
+      "score": 4
+    },
+    {
+      "id": 7,
+      "img": "/images/testimonial-1.jpg",
+      "username": "Christine Ayana",
+      "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum \nvoluptates magni quo et",
+      "productID": 2,
+      "score": 3
+    },
+    {
+      "id": 8,
+      "img": "/images/testimonial-3.jpg",
+      "username": "Preston_Hudson",
+      "body": "harum non quasi et ratione\ntempore iure ex voluptat",
+      "productID": 1,
+      "score": 1
+    },
+    {
+      "id": 9,
+      "img": "/images/testimonial-1.jpg",
+      "username": "Vincenza_Klocko",
+      "body": "harum non voluptates in ratione\nharum architecto fugit inventore cupiditate\nvoluptates magni quo et",
+      "productID": 1,
+      "score": 2
+    },
+    {
+      "id": 10,
+      "img": "/images/testimonial-2.jpg",
+      "username": "Madelynn.Gorczany",
+      "body": "harum non quasi et ratione\ntempore iure ex voluptates in ratione\nharum architecto fugit inventore cupiditate",
+      "productID": 1,
       "score": 3
     }
   ],
